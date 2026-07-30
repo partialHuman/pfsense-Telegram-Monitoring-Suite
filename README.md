@@ -557,15 +557,3 @@ If you found this project useful,
 This project is licensed under the MIT License.
 
 ---
-
-#  Author
-
-**Dhrumil Moga**
-
-Cybersecurity Enthusiast | Network Security | pfSense | VLSI | SOC Automation
-
-GitHub: https://github.com/YOUR_USERNAME
-
-LinkedIn: https://linkedin.com/in/YOUR_PROFILE
-
----
