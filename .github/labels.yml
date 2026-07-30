@@ -1,0 +1,39 @@
+- name: bug
+  color: "d73a4a"
+  description: "Something isn't working"
+
+- name: enhancement
+  color: "a2eeef"
+  description: "New feature or request"
+
+- name: documentation
+  color: "0075ca"
+  description: "Documentation improvements"
+
+- name: question
+  color: "d876e3"
+  description: "General question"
+
+- name: good first issue
+  color: "7057ff"
+  description: "Suitable for first-time contributors"
+
+- name: help wanted
+  color: "008672"
+  description: "Extra help is welcome"
+
+- name: security
+  color: "b60205"
+  description: "Security-related issue"
+
+- name: performance
+  color: "fbca04"
+  description: "Performance optimization"
+
+- name: maintenance
+  color: "5319e7"
+  description: "Repository maintenance"
+
+- name: dependencies
+  color: "0366d6"
+  description: "Dependency updates"

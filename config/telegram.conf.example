@@ -1,0 +1,15 @@
+###############################################################################
+# Telegram Bot Configuration
+###############################################################################
+
+# Telegram Bot Token
+BOT_TOKEN="YOUR_BOT_TOKEN"
+
+# Telegram Chat ID
+CHAT_ID="YOUR_CHAT_ID"
+
+# Telegram API URL
+API_URL="https://api.telegram.org"
+
+# Enable Markdown formatting
+PARSE_MODE="Markdown"

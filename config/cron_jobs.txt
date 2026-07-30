@@ -1,0 +1,13 @@
+* * * * * /root/scripts/system_monitor.sh
+
+* * * * * /root/scripts/vpn_monitor.sh
+
+* * * * * /root/scripts/firewall_monitor.sh
+
+* * * * * /root/scripts/suricata_monitor.sh
+
+*/5 * * * * /root/scripts/interface_monitor.sh
+
+0 * * * * /root/scripts/daily_report.sh
+
+0 0 * * 0 /root/scripts/weekly_report.sh
