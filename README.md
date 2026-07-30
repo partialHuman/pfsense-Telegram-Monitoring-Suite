@@ -365,11 +365,7 @@ The monitoring engine is organized into six functional groups:
 ## Clone Repository
 
 ```bash
-<<<<<<< HEAD
 git clone https://github.com/partialHuman/fsense-Telegram-Monitoring-Suite.git
-=======
-git clone https://github.com/partialHuman/pfsense-Telegram-Monitoring-Suite.git
->>>>>>> bfd5a838530ddafb39bfdb698dab89f1779024d2
 ```
 
 ---
