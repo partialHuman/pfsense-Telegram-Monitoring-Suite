@@ -60,13 +60,14 @@ cd /root
 Clone the repository.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/pfSense-Telegram-Monitoring.git
+git clone https://github.com/partialHuman/pfsense-Telegram-Monitoring-Suite.git
 ```
 
 The project directory will be created.
 
 ```
-/root/pfSense-Telegram-Monitoring
+/root/pfsense-Telegram-Monitoring-Suite
+
 ```
 
 ---
@@ -295,7 +296,7 @@ curl https://api.telegram.org
 Navigate to the project directory.
 
 ```bash
-cd /root/pfSense-Telegram-Monitoring
+cd /root/pfsense-Telegram-Monitoring-Suite
 ```
 
 Pull the latest changes.

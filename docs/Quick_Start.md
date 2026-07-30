@@ -13,7 +13,7 @@ SSH into your pfSense firewall.
 ```bash
 cd /root
 
-git clone https://github.com/YOUR_USERNAME/pfSense-Telegram-Monitoring.git
+git clone https://github.com/partialHuman/pfsense-Telegram-Monitoring-Suite.git
 ```
 
 ---

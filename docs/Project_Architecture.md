@@ -21,33 +21,40 @@ The project is designed around four key principles:
 
 # High-Level Architecture
 
-```
-                     Internet
-                         │
-                         ▼
-                +-----------------+
-                |    pfSense      |
-                +-----------------+
-                         │
-      ┌──────────────────┼──────────────────┐
-      │                  │                  │
-      ▼                  ▼                  ▼
- Firewall Logs      WireGuard         Suricata IDS
-      │                  │                  │
-      └──────────────┬───┴──────────────────┘
-                     ▼
-          Monitoring Shell Scripts
-                     │
-        ┌────────────┼────────────┐
-        │            │            │
-        ▼            ▼            ▼
-     Config        Libraries    State Files
-                     │
-                     ▼
-             Telegram Bot API
-                     │
-                     ▼
-            Telegram Notifications
+```mermaid
+flowchart TD
+
+A([🌐 Internet]) --> B([👨‍💻 Remote Users])
+
+B --> C[🛡️ pfSense Firewall]
+
+C --> D[🔥 Firewall]
+C --> E[🔐 WireGuard VPN]
+C --> F[🚨 Suricata IDS/IPS]
+
+D --> G[(📜 pfSense Logs)]
+E --> G
+F --> G
+
+G --> H[🤖 Monitoring Engine]
+
+H --> I[🖥️ System Monitoring]
+H --> J[🌐 Network Monitoring]
+H --> K[🔐 VPN Monitoring]
+H --> L[🛡️ Security Monitoring]
+H --> M[⚙️ Service Monitoring]
+H --> N[📊 Reporting]
+
+I --> O[📨 Telegram Bot API]
+J --> O
+K --> O
+L --> O
+M --> O
+N --> O
+
+O --> P[📱 Telegram]
+
+P --> Q([👨‍💼 Administrator])
 ```
 
 ---
@@ -55,18 +62,15 @@ The project is designed around four key principles:
 # Repository Structure
 
 ```
-pfSense-Telegram-Monitoring/
+pfSense-Telegram-Monitoring-Suite/
 │
+├── .github/
 ├── config/
 ├── docs/
-├── examples/
+├── diagram/
 ├── images/
 ├── lib/
-├── logs/
-├── reports/
 ├── scripts/
-├── state/
-│
 ├── README.md
 ├── LICENSE
 ├── CHANGELOG.md

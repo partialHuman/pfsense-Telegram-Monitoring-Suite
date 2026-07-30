@@ -1,4 +1,4 @@
-# 📚 Documentation
+# Documentation
 
 Welcome to the documentation for the **pfSense Telegram Monitoring Suite**.
 

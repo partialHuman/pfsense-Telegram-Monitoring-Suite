@@ -125,7 +125,7 @@ Check the following:
 
 ---
 
-## How do I find my Chat ID?
+## How do I find Chat ID?
 
 1. Start your bot.
 2. Send a message.
