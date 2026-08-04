@@ -1,0 +1,78 @@
+cff-version: 1.2.0
+message: >-
+  If you use the pfSense Telegram Monitoring Suite in your research,
+  publications, teaching, or projects, please cite it using the metadata
+  provided below.
+
+title: "pfSense Telegram Monitoring Suite"
+
+type: software
+
+authors:
+  - family-names: "Moga"
+    given-names: "Dhrumil"
+    affiliation: "Independent Developer"
+
+abstract: >
+  A lightweight, modular monitoring suite for pfSense that provides
+  real-time Telegram notifications for system health, WireGuard VPN,
+  firewall activity, Suricata IDS alerts, service monitoring,
+  configuration changes, and automated reporting.
+
+keywords:
+  - pfSense
+  - FreeBSD
+  - Cybersecurity
+  - Network Security
+  - Firewall
+  - Monitoring
+  - Telegram
+  - WireGuard
+  - Suricata
+  - IDS
+  - IPS
+  - SOC
+  - Bash
+  - Shell Script
+  - Automation
+
+license: MIT
+
+repository-code: "https://github.com/partialHuman/pfsense-telegram-monitoring-suite"
+
+url: "https://github.com/partialHuman/pfsense-telegram-monitoring-suite"
+
+version: "1.0.0"
+
+date-released: "2026-08-04"
+
+preferred-citation:
+  type: software
+  authors:
+    - family-names: "Moga"
+      given-names: "Dhrumil"
+  title: "pfSense Telegram Monitoring Suite"
+  version: "1.0.0"
+  year: 2026
+  url: "https://github.com/partialHuman/pfsense-telegram-monitoring-suite"
+
+references:
+  - type: software
+    title: "pfSense Community Edition"
+    url: "https://www.pfsense.org/"
+
+  - type: software
+    title: "WireGuard"
+    url: "https://www.wireguard.com/"
+
+  - type: software
+    title: "Suricata IDS"
+    url: "https://suricata.io/"
+
+  - type: software
+    title: "Telegram Bot API"
+    url: "https://core.telegram.org/bots/api"
+
+  - type: software
+    title: "ShellCheck"
+    url: "https://www.shellcheck.net/"
