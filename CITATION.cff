@@ -9,7 +9,7 @@ title: "pfSense Telegram Monitoring Suite"
 type: software
 
 authors:
-  - family-names: "Moga"
+  - family-names: ""
     given-names: "Dhrumil"
     affiliation: "Independent Developer"
 
@@ -49,7 +49,7 @@ date-released: "2026-08-04"
 preferred-citation:
   type: software
   authors:
-    - family-names: "Moga"
+    - family-names: ""
       given-names: "Dhrumil"
   title: "pfSense Telegram Monitoring Suite"
   version: "1.0.0"
