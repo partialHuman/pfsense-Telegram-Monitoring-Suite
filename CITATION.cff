@@ -9,8 +9,7 @@ title: "pfSense Telegram Monitoring Suite"
 type: software
 
 authors:
-  - family-names: ""
-    given-names: "Dhrumil"
+  - given-names: "Dhrumil"
     affiliation: "Independent Developer"
 
 abstract: >
